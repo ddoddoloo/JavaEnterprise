@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>WiFiServlet</servlet-name>
+        <servlet-class>com.mywifiproject.WiFiServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WiFiServlet</servlet-name>
+        <url-pattern>/wifi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LocationServlet</servlet-name>
+        <servlet-class>com.mywifiproject.LocationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LocationServlet</servlet-name>
+        <url-pattern>/location</url-pattern>
+    </servlet-mapping>
+</web-app>
